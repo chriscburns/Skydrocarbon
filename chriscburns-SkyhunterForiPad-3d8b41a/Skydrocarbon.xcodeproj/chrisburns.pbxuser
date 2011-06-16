@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* ArcGISTest1AppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {788, 715}}";
+			sepNavSelRange = "{385, 0}";
+			sepNavVisRange = "{0, 566}";
+			sepNavWindowFrame = "{{4, 1}, {958, 1177}}";
+		};
+	};
+	1D3623250D0F684500981E51 /* ArcGISTest1AppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1020, 1157}}";
+			sepNavSelRange = "{1008, 0}";
+			sepNavVisRange = "{0, 1823}";
+			sepNavWindowFrame = "{{4, 1}, {958, 1177}}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Skydrocarbon */ = {
+		activeExec = 0;
+		executables = (
+			431010E11371EDD4008F3D95 /* Skydrocarbon */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* ArcGISTest1ViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {737, 1036}}";
+			sepNavSelRange = "{1354, 0}";
+			sepNavVisRange = "{0, 1363}";
+			sepNavWindowFrame = "{{19, 10}, {1857, 1163}}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* ArcGISTest1ViewController.m */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{5775, 643}\";\n            s = 0;\n        },\n                {\n            r = \"{6446, 637}\";\n            s = 0;\n        },\n                {\n            r = \"{7117, 670}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 10409}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {950, 4381}}";
+			sepNavSelRange = "{6363, 0}";
+			sepNavVisRange = "{3076, 1383}";
+			sepNavWindowFrame = "{{4, 1}, {958, 1177}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeArchitecturePreference = armv7;
+		activeBuildConfigurationName = Distribution;
+		activeExecutable = 431010E11371EDD4008F3D95 /* Skydrocarbon */;
+		activeSDKPreference = iphoneos4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Skydrocarbon */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Skydrocarbon */,
+		);
+		breakpoints = (
+			43B733AA1381A60600A1BCC1 /* MethodReceiver.m:193 */,
+		);
+		codeSenseManager = 431010FB1371EDEB008F3D95 /* Code sense */;
+		executables = (
+			431010E11371EDD4008F3D95 /* Skydrocarbon */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1413,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFindDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFindDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					1390,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFindDataSource_MessageID,
+					PBXFindDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.XCSCMDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					1042,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_SCM_ColumnID,
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1373,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 329945025;
+			PBXWorkspaceStateSaveDate = 329945025;
+		};
+		perUserProjectItems = {
+			435317561378897C00832F28 = 435317561378897C00832F28 /* PBXTextBookmark */;
+			4353176B13788B1200832F28 = 4353176B13788B1200832F28 /* PBXTextBookmark */;
+			435318231378AB6000832F28 = 435318231378AB6000832F28 /* PBXTextBookmark */;
+			4353184D1379B6AF00832F28 = 4353184D1379B6AF00832F28 /* PBXTextBookmark */;
+			4353184E1379B6AF00832F28 = 4353184E1379B6AF00832F28 /* PBXTextBookmark */;
+			435DA9C613AA8FA200F606E0 = 435DA9C613AA8FA200F606E0 /* PlistBookmark */;
+			435DA9C713AA8FA200F606E0 = 435DA9C713AA8FA200F606E0 /* PBXTextBookmark */;
+			435DA9C813AA8FA200F606E0 = 435DA9C813AA8FA200F606E0 /* PBXTextBookmark */;
+			435DA9C913AA8FA200F606E0 = 435DA9C913AA8FA200F606E0 /* PBXTextBookmark */;
+			435DA9CA13AA8FA200F606E0 = 435DA9CA13AA8FA200F606E0 /* PBXTextBookmark */;
+			435DA9CB13AA8FA200F606E0 = 435DA9CB13AA8FA200F606E0 /* PBXTextBookmark */;
+			435DA9CC13AA8FA200F606E0 = 435DA9CC13AA8FA200F606E0 /* PlistBookmark */;
+			435DA9CD13AA8FA200F606E0 = 435DA9CD13AA8FA200F606E0 /* PBXTextBookmark */;
+			435DA9CE13AA8FA200F606E0 = 435DA9CE13AA8FA200F606E0 /* PBXTextBookmark */;
+			435DA9CF13AA8FA200F606E0 = 435DA9CF13AA8FA200F606E0 /* PBXTextBookmark */;
+			435DA9D013AA8FA200F606E0 = 435DA9D013AA8FA200F606E0 /* PBXTextBookmark */;
+			435DA9D113AA8FA200F606E0 = 435DA9D113AA8FA200F606E0 /* PBXTextBookmark */;
+			439EAFBD13958BB9006202B6 = 439EAFBD13958BB9006202B6 /* PBXTextBookmark */;
+			439EAFD813958C24006202B6 = 439EAFD813958C24006202B6 /* PBXTextBookmark */;
+			439EAFFF13958F8F006202B6 = 439EAFFF13958F8F006202B6 /* PBXTextBookmark */;
+			439EB00013958F8F006202B6 = 439EB00013958F8F006202B6 /* PBXTextBookmark */;
+			439EB028139590E5006202B6 = 439EB028139590E5006202B6 /* PBXTextBookmark */;
+			439EB06E13959296006202B6 = 439EB06E13959296006202B6 /* PBXTextBookmark */;
+			439EB093139593C2006202B6 = 439EB093139593C2006202B6 /* PBXTextBookmark */;
+			43A100A013A15271007A2978 = 43A100A013A15271007A2978 /* PBXBookmark */;
+			43A609C313AA8FC900DC4C38 /* PBXTextBookmark */ = 43A609C313AA8FC900DC4C38 /* PBXTextBookmark */;
+			43A609C413AA8FC900DC4C38 /* PBXTextBookmark */ = 43A609C413AA8FC900DC4C38 /* PBXTextBookmark */;
+			43B73237137B1F3B00A1BCC1 = 43B73237137B1F3B00A1BCC1 /* PBXTextBookmark */;
+			43B7328C137B2BF600A1BCC1 = 43B7328C137B2BF600A1BCC1 /* PBXTextBookmark */;
+			43B7328E137B2BF600A1BCC1 = 43B7328E137B2BF600A1BCC1 /* PBXTextBookmark */;
+			43B732BE137B329C00A1BCC1 = 43B732BE137B329C00A1BCC1 /* PBXTextBookmark */;
+			43CE9A1D139D7E2800548269 = 43CE9A1D139D7E2800548269 /* PBXTextBookmark */;
+			43CE9A3D139D7E7500548269 = 43CE9A3D139D7E7500548269 /* PBXTextBookmark */;
+			43CE9AAF13A13B0E00548269 = 43CE9AAF13A13B0E00548269 /* PBXBookmark */;
+			43CE9AB013A13B0E00548269 = 43CE9AB013A13B0E00548269 /* PBXBookmark */;
+			43CE9ABE13A13D7300548269 = 43CE9ABE13A13D7300548269 /* PBXBookmark */;
+		};
+		sourceControlManager = 431010FA1371EDEB008F3D95 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	431010E11371EDD4008F3D95 /* Skydrocarbon */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Skydrocarbon;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+			$cs = 1;
+			$ds = 1;
+			$eax = 1;
+			$ebp = 1;
+			$ebx = 1;
+			$ecx = 1;
+			$edi = 1;
+			$edx = 1;
+			$eflags = 1;
+			$eip = 1;
+			$es = 1;
+			$esi = 1;
+			$esp = 1;
+			$fs = 1;
+			$gs = 1;
+			$mxcsr = 1;
+			$ss = 1;
+		};
+	};
+	431010FA1371EDEB008F3D95 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	431010FB1371EDEB008F3D95 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	432784E0137B02AA00719B9F /* MethodReceiver.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = MethodReceiver.h;
+		path = "/Users/chrisburns/Desktop/chriscburns-SkyhunterForiPad-3d8b41a/Method Receiver/MethodReceiver.h";
+		sourceTree = "<absolute>";
+	};
+	432784E1137B02AA00719B9F /* MethodReceiver.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = MethodReceiver.m;
+		path = "/Users/chrisburns/Desktop/chriscburns-SkyhunterForiPad-3d8b41a/Method Receiver/MethodReceiver.m";
+		sourceTree = "<absolute>";
+	};
+	432784E3137B02AA00719B9F /* NSString+UtilityCategory.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = "NSString+UtilityCategory.m";
+		path = "/Users/chrisburns/Desktop/chriscburns-SkyhunterForiPad-3d8b41a/Method Receiver/NSString+UtilityCategory.m";
+		sourceTree = "<absolute>";
+	};
+	435317561378897C00832F28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 435317571378897C00832F28 /* AGSCallout.h */;
+		name = "AGSCallout.h: 93";
+		rLen = 62;
+		rLoc = 2302;
+		rType = 0;
+		vrLen = 1673;
+		vrLoc = 1574;
+	};
+	435317571378897C00832F28 /* AGSCallout.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = AGSCallout.h;
+		path = /Users/chrisburns/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSCallout.h;
+		sourceTree = "<absolute>";
+	};
+	4353175A1378897C00832F28 /* AGSMapView.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = AGSMapView.h;
+		path = /Users/chrisburns/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSMapView.h;
+		sourceTree = "<absolute>";
+	};
+	4353176B13788B1200832F28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4353176C13788B1200832F28 /* AGSDynamicLayer.h */;
+		name = "AGSDynamicLayer.h: 67";
+		rLen = 0;
+		rLoc = 2260;
+		rType = 0;
+		vrLen = 1851;
+		vrLoc = 5761;
+	};
+	4353176C13788B1200832F28 /* AGSDynamicLayer.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = AGSDynamicLayer.h;
+		path = /Users/chrisburns/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSDynamicLayer.h;
+		sourceTree = "<absolute>";
+	};
+	435317F01378A49700832F28 /* AGSDynamicMapServiceLayer.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = AGSDynamicMapServiceLayer.h;
+		path = /Users/chrisburns/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSDynamicMapServiceLayer.h;
+		sourceTree = "<absolute>";
+	};
+	435318081378A9BE00832F28 /* AGSMapServiceInfo.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = AGSMapServiceInfo.h;
+		path = /Users/chrisburns/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSMapServiceInfo.h;
+		sourceTree = "<absolute>";
+	};
+	4353180C1378A9BE00832F28 /* AGSMapServiceLayerInfo.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = AGSMapServiceLayerInfo.h;
+		path = /Users/chrisburns/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSMapServiceLayerInfo.h;
+		sourceTree = "<absolute>";
+	};
+	435318231378AB6000832F28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 435317F01378A49700832F28 /* AGSDynamicMapServiceLayer.h */;
+		name = "AGSDynamicMapServiceLayer.h: 71";
+		rLen = 90;
+		rLoc = 2078;
+		rType = 0;
+		vrLen = 2007;
+		vrLoc = 1062;
+	};
+	4353184D1379B6AF00832F28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 435318081378A9BE00832F28 /* AGSMapServiceInfo.h */;
+		name = "AGSMapServiceInfo.h: 103";
+		rLen = 22;
+		rLoc = 2545;
+		rType = 0;
+		vrLen = 1577;
+		vrLoc = 1655;
+	};
+	4353184E1379B6AF00832F28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4353180C1378A9BE00832F28 /* AGSMapServiceLayerInfo.h */;
+		name = "AGSMapServiceLayerInfo.h: 35";
+		rLen = 22;
+		rLoc = 877;
+		rType = 0;
+		vrLen = 1615;
+		vrLoc = 398;
+	};
+	435DA9C613AA8FA200F606E0 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Skydrocarbon-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/chrisburns/Desktop/chriscburns-SkyhunterForiPad-3d8b41a/Skydrocarbon-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	435DA9C713AA8FA200F606E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 439EAFF113958DCB006202B6 /* Reachability.h */;
+		name = "Reachability.h: 56";
+		rLen = 17;
+		rLoc = 2663;
+		rType = 0;
+		vrLen = 2238;
+		vrLoc = 1415;
+	};
+	435DA9C813AA8FA200F606E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ArcGISTest1AppDelegate.m */;
+		name = "ArcGISTest1AppDelegate.m: 19";
+		rLen = 0;
+		rLoc = 349;
+		rType = 0;
+		vrLen = 1823;
+		vrLoc = 0;
+	};
+	435DA9C913AA8FA200F606E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* ArcGISTest1ViewController.h */;
+		name = "ArcGISTest1ViewController.h: 59";
+		rLen = 0;
+		rLoc = 1354;
+		rType = 0;
+		vrLen = 1363;
+		vrLoc = 0;
+	};
+	435DA9CA13AA8FA200F606E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ArcGISTest1ViewController.m */;
+		name = "ArcGISTest1ViewController.m: 18";
+		rLen = 0;
+		rLoc = 361;
+		rType = 0;
+		vrLen = 2127;
+		vrLoc = 0;
+	};
+	435DA9CB13AA8FA200F606E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ArcGISTest1ViewController.m */;
+		name = "ArcGISTest1ViewController.m: 325";
+		rLen = 0;
+		rLoc = 8310;
+		rType = 0;
+		vrLen = 1412;
+		vrLoc = 3047;
+	};
+	435DA9CC13AA8FA200F606E0 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Skydrocarbon-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIdentifier,
+		);
+		name = "/Users/chrisburns/Desktop/chriscburns-SkyhunterForiPad-3d8b41a/Skydrocarbon-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	435DA9CD13AA8FA200F606E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 439EAFF113958DCB006202B6 /* Reachability.h */;
+		name = "Reachability.h: 56";
+		rLen = 17;
+		rLoc = 2663;
+		rType = 0;
+		vrLen = 2238;
+		vrLoc = 1415;
+	};
+	435DA9CE13AA8FA200F606E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 439EAFF213958DCB006202B6 /* Reachability.m */;
+		name = "Reachability.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2678;
+		vrLoc = 0;
+	};
+	435DA9CF13AA8FA200F606E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ArcGISTest1AppDelegate.h */;
+		name = "ArcGISTest1AppDelegate.h: 19";
+		rLen = 0;
+		rLoc = 385;
+		rType = 0;
+		vrLen = 566;
+		vrLoc = 0;
+	};
+	435DA9D013AA8FA200F606E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ArcGISTest1AppDelegate.m */;
+		name = "ArcGISTest1AppDelegate.m: 50";
+		rLen = 0;
+		rLoc = 1218;
+		rType = 0;
+		vrLen = 1414;
+		vrLoc = 0;
+	};
+	435DA9D113AA8FA200F606E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ArcGISTest1AppDelegate.m */;
+		name = "ArcGISTest1AppDelegate.m: 45";
+		rLen = 0;
+		rLoc = 1008;
+		rType = 0;
+		vrLen = 1823;
+		vrLoc = 0;
+	};
+	439EAFBD13958BB9006202B6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* ArcGISTest1ViewController.h */;
+		name = "ArcGISTest1ViewController.h: 25";
+		rLen = 0;
+		rLoc = 606;
+		rType = 0;
+		vrLen = 1307;
+		vrLoc = 0;
+	};
+	439EAFD813958C24006202B6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ArcGISTest1ViewController.m */;
+		name = "ArcGISTest1ViewController.m: 64";
+		rLen = 0;
+		rLoc = 2100;
+		rType = 0;
+		vrLen = 1598;
+		vrLoc = 3024;
+	};
+	439EAFF113958DCB006202B6 /* Reachability.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {737, 1118}}";
+			sepNavSelRange = "{2663, 17}";
+			sepNavVisRange = "{1415, 2238}";
+		};
+	};
+	439EAFF213958DCB006202B6 /* Reachability.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {788, 3237}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 2678}";
+		};
+	};
+	439EAFFF13958F8F006202B6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 43B733561381921E00A1BCC1 /* MBProgressHUD.h */;
+		name = "MBProgressHUD.h: 33";
+		rLen = 0;
+		rLoc = 1383;
+		rType = 0;
+		vrLen = 2571;
+		vrLoc = 1783;
+	};
+	439EB00013958F8F006202B6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 43B733571381921E00A1BCC1 /* MBProgressHUD.m */;
+		name = "MBProgressHUD.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2360;
+		vrLoc = 1598;
+	};
+	439EB027139590E5006202B6 /* UISegmentedControl.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = UISegmentedControl.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UISegmentedControl.h;
+		sourceTree = "<absolute>";
+	};
+	439EB028139590E5006202B6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 439EAFF213958DCB006202B6 /* Reachability.m */;
+		name = "Reachability.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 3631;
+		vrLoc = 0;
+	};
+	439EB06E13959296006202B6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 432784E3137B02AA00719B9F /* NSString+UtilityCategory.m */;
+		name = "NSString+UtilityCategory.m: 14";
+		rLen = 35;
+		rLoc = 263;
+		rType = 0;
+		vrLen = 501;
+		vrLoc = 0;
+	};
+	439EB093139593C2006202B6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 439EB027139590E5006202B6 /* UISegmentedControl.h */;
+		name = "UISegmentedControl.h: 86";
+		rLen = 53;
+		rLoc = 4052;
+		rType = 0;
+		vrLen = 3939;
+		vrLoc = 173;
+	};
+	43A100A013A15271007A2978 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 43CE9AAA13A13AE500548269 /* Icon.png */;
+	};
+	43A609C313AA8FC900DC4C38 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ArcGISTest1ViewController.m */;
+		name = "ArcGISTest1ViewController.m: 325";
+		rLen = 0;
+		rLoc = 8310;
+		rType = 0;
+		vrLen = 1383;
+		vrLoc = 3076;
+	};
+	43A609C413AA8FC900DC4C38 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ArcGISTest1AppDelegate.m */;
+		name = "ArcGISTest1AppDelegate.m: 45";
+		rLen = 0;
+		rLoc = 1008;
+		rType = 0;
+		vrLen = 1823;
+		vrLoc = 0;
+	};
+	43B73237137B1F3B00A1BCC1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 432784E0137B02AA00719B9F /* MethodReceiver.h */;
+		name = "MethodReceiver.h: 20";
+		rLen = 0;
+		rLoc = 816;
+		rType = 0;
+		vrLen = 1346;
+		vrLoc = 0;
+	};
+	43B7328C137B2BF600A1BCC1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 43B7328D137B2BF600A1BCC1 /* AGSLayerView.h */;
+		name = "AGSLayerView.h: 22";
+		rLen = 10;
+		rLoc = 534;
+		rType = 0;
+		vrLen = 1595;
+		vrLoc = 237;
+	};
+	43B7328D137B2BF600A1BCC1 /* AGSLayerView.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = AGSLayerView.h;
+		path = /Users/chrisburns/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSLayerView.h;
+		sourceTree = "<absolute>";
+	};
+	43B7328E137B2BF600A1BCC1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 43B7328F137B2BF600A1BCC1 /* AGSLayer.h */;
+		name = "AGSLayer.h: 43";
+		rLen = 34;
+		rLoc = 1174;
+		rType = 0;
+		vrLen = 1687;
+		vrLoc = 279;
+	};
+	43B7328F137B2BF600A1BCC1 /* AGSLayer.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = AGSLayer.h;
+		path = /Users/chrisburns/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSLayer.h;
+		sourceTree = "<absolute>";
+	};
+	43B732BE137B329C00A1BCC1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4353175A1378897C00832F28 /* AGSMapView.h */;
+		name = "AGSMapView.h: 834";
+		rLen = 0;
+		rLoc = 31896;
+		rType = 0;
+		vrLen = 2145;
+		vrLoc = 30229;
+	};
+	43B733561381921E00A1BCC1 /* MBProgressHUD.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {866, 4524}}";
+			sepNavSelRange = "{3904, 21}";
+			sepNavVisRange = "{3231, 2289}";
+		};
+	};
+	43B733571381921E00A1BCC1 /* MBProgressHUD.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {810, 9386}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{1598, 2360}";
+		};
+	};
+	43B733AA1381A60600A1BCC1 /* MethodReceiver.m:193 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 432784E1137B02AA00719B9F /* MethodReceiver.m */;
+		functionName = "-createInvocationForMethodAndSchedule:andParameters:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 193;
+		location = Skyhunter;
+		modificationTime = 329350281.877111;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	43CE9A1D139D7E2800548269 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 43B733561381921E00A1BCC1 /* MBProgressHUD.h */;
+		name = "MBProgressHUD.h: 112";
+		rLen = 21;
+		rLoc = 3904;
+		rType = 0;
+		vrLen = 2289;
+		vrLoc = 3231;
+	};
+	43CE9A3D139D7E7500548269 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ArcGISTest1AppDelegate.h */;
+		name = "ArcGISTest1AppDelegate.h: 20";
+		rLen = 0;
+		rLoc = 387;
+		rType = 0;
+		vrLen = 566;
+		vrLoc = 0;
+	};
+	43CE9AAF13A13B0E00548269 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 43CE9A45139D7F9000548269 /* Icon-Small-50.png */;
+	};
+	43CE9AB013A13B0E00548269 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 43CE9A43139D7F6B00548269 /* Icon-72.png */;
+	};
+	43CE9ABE13A13D7300548269 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 43CE9AAA13A13AE500548269 /* Icon.png */;
+	};
+	8D1107310486CEB800E47090 /* Skydrocarbon-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{4, 1}, {958, 1177}}";
+		};
+	};
+}
