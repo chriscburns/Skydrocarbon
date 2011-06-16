@@ -352,7 +352,7 @@
 				);
 				PRODUCT_NAME = Skydrocarbon;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5FA3978F-1290-4D07-A380-16993DACFB52";
-				SDKROOT = iphoneos4.2;
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 				USER_HEADER_SEARCH_PATHS = "$(HOME)/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/**";
 			};
