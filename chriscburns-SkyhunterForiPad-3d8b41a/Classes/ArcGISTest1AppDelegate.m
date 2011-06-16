@@ -9,7 +9,7 @@
 #import "ArcGISTest1AppDelegate.h"
 #import "ArcGISTest1ViewController.h"
 #import "MBProgressHUD.h"
-
+#import "Reachability.h"
 
 @implementation ArcGISTest1AppDelegate
 
@@ -38,10 +38,30 @@
 	 
 	*/
 	
+	[[NSNotificationCenter defaultCenter] addObserver: self selector: @selector(reachabilityChanged:) name: kReachabilityChangedNotification object: nil];
+	
+    //Change the host name here to change the server your monitoring
+	reach = [[Reachability reachabilityForInternetConnection] retain]; 
+	[reach startNotifier];
+	
 	
     // Override point for customization after app launch    
     [window addSubview:viewController.view];
     [window makeKeyAndVisible];
+}
+
+//Called by Reachability whenever status changes.
+- (void) reachabilityChanged: (NSNotification* )note {
+	
+	UIAlertView *alert = [[UIAlertView alloc]
+						  initWithTitle: @"Lost Connection"
+						  message: @"You have lost connection to the internet"
+						  delegate: nil
+						  cancelButtonTitle:@"OK"
+						  otherButtonTitles:nil];
+	[alert show];
+	[alert release];
+	
 }
 
 /*
@@ -81,6 +101,7 @@ Setup Method Receiver -  Receives from the Server a valid port number that corre
 - (void)dealloc {
     [viewController release];
     [window release];
+	[reach release]; 
     [super dealloc];
 }
 

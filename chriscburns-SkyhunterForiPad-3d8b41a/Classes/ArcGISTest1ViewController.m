@@ -17,7 +17,7 @@
 
 @synthesize depthsInfo; 
 @synthesize contoursInfo; 
-
+@synthesize oilInfo; 
 
 @synthesize contoursLayer; 
 @synthesize oilLayer; 
@@ -40,9 +40,6 @@
 	
 	NSAutoreleasePool* pool = [[NSAutoreleasePool alloc] init];
 
-	NSLog(@" Map Attempt Started"); 
-
-
 	NSError *error = nil; 
 	
 	//Download the AGSMapServiceInfo object for depth 
@@ -53,24 +50,32 @@
 	NSURL *contoursUrl = [NSURL URLWithString:@"http://asebeast.cpsc.ucalgary.ca:1892/ArcGIS/rest/services/cpzcontoursopt/MapServer"];
 	self.contoursInfo = [AGSMapServiceInfo mapServiceInfoWithURL:contoursUrl error:&error]; 
 	
-	NSLog(@" Map Attempt Ended"); 
-
-	
 	//Download the AGSMapServiceInfo object for depth 
-	//NSURL *oilUrl = [NSURL URLWithString:@"http://asebeast.cpsc.ucalgary.ca:1892/ArcGIS/rest/services/Oil12mask/MapServer"]; 
-	//(TODO - this needs to be made an instance variable)AGSMapServiceInfo *oilInfo = [AGSMapServiceInfo mapServiceInfoWithURL:oilUrl error:&error]; 
+	NSURL *oilUrl = [NSURL URLWithString:@"http://asebeast.cpsc.ucalgary.ca:1892/ArcGIS/rest/services/Oil12mask/MapServer"]; 
+	self.oilInfo = [AGSMapServiceInfo mapServiceInfoWithURL:oilUrl error:&error]; 
 	
-	
+
 	if (error) {
 		
 		NSLog(@"Map Info Failed To Load: %@", error );   
-		//(TODO) add the create alert view with the appropriate information
+		[loadingProgress hide:YES]; 
+		
+		UIAlertView *alert = [[UIAlertView alloc]
+							  initWithTitle: @"Connection Error"
+							  message: @"Cannot connect to the GIS server"
+							  delegate: nil
+							  cancelButtonTitle:@"OK"
+							  otherButtonTitles:nil];
+		[alert show];
+		[alert release];
+		
+		
 		
 	}
 	
 	
 	else {
-		
+		loadingProgress.detailsLabelText = @"Adding Maps"; 
 		[self performSelectorOnMainThread:@selector(loadMapInfo) withObject:nil waitUntilDone:NO]; 
 		
 	}
@@ -83,9 +88,6 @@
 
 - (void) loadMapInfo {
 	
-	NSLog(@" Load Attempt Started %@ + ", [NSThread isMainThread]?@"YES": @"NO");  
-
-	
 	//Load the depth layer
 	self.depthsLayer = [AGSDynamicMapServiceLayer dynamicMapServiceLayerWithMapServiceInfo:self.depthsInfo]; 
 	self.depthsLayer.visibleLayers = [NSArray arrayWithObjects:[NSNumber numberWithInt:0], nil];
@@ -97,18 +99,19 @@
 	[self.mapView addMapLayer:contoursLayer withName:@"Contours Layer"]; 
 	
 	
-	
-	NSLog(@" Load Attempt Ended %@ + ", [NSThread isMainThread]?@"YES": @"NO");  
 
-	
-	/*Load the oil layer and display it (TODO) 
-	self.oilLayer = [AGSDynamicMapServiceLayer dynamicMapServiceLayerWithMapServiceInfo:oilInfo]; 
+	//Load the oil layer and display it  
+	self.oilLayer = [AGSDynamicMapServiceLayer dynamicMapServiceLayerWithMapServiceInfo:self.oilInfo]; 
 	self.oilLayer.visibleLayers = [NSArray arrayWithObjects:[NSNumber numberWithInt:0], nil]; //Only show 75% Layer 
 	
-	[self.mapView addMapLayer:oilLayer withName:@"Oil Layer"]; */
+	[self.mapView addMapLayer:oilLayer withName:@"Oil Layer"]; 
 	
+	[loadingProgress hide:YES]; 
 	
 }
+
+
+
 
 
 
@@ -117,17 +120,27 @@
     [super viewDidLoad];
 	
 	
+
+	
 	//Add the base map which serves as the background to all subsquent maps 
 	NSURL *baseUrl = [NSURL URLWithString:@"http://asebeast.cpsc.ucalgary.ca:1892/ArcGIS/rest/services/bingmapsRoad/MapServer"];
 	AGSDynamicMapServiceLayer *baseLayer = [AGSDynamicMapServiceLayer dynamicMapServiceLayerWithURL:baseUrl]; 
-	
 	[self.mapView addMapLayer:baseLayer withName:@"Base Layer"];
 	
+	//Load the maps on a background thread to avoid watchdog problems 
+	loadingProgress = [[MBProgressHUD alloc] initWithView:self.view]; 
+	[self.view addSubview:loadingProgress]; 
 	
+	loadingProgress.delegate = nil;
+    loadingProgress.labelText = @"Loading";
+    loadingProgress.detailsLabelText = @"Downloading Map Data";
+	[loadingProgress show:YES]; 
+
 	[self performSelectorInBackground:@selector(downloadMapInfo) withObject:nil]; 
 	
-	AGSSpatialReference *sr = [AGSSpatialReference spatialReferenceWithWKID:4283]; 
 	
+	//Zoome to the correct spatial reference
+	AGSSpatialReference *sr = [AGSSpatialReference spatialReferenceWithWKID:4283]; 
 	AGSEnvelope *initialExtent = [AGSEnvelope envelopeWithXmin:138.225
 														  ymin:-29.215
 														  xmax:141.855
@@ -135,66 +148,6 @@
 											  spatialReference:sr];
 	
 	[self.mapView zoomToEnvelope:initialExtent animated:YES]; 
-	
-	
-	
-	/*
-	
-	NSError *error = nil; 
-
-	NSLog(@" Map Attempt Started"); 
-	//Depth (Map) Layers (! Not Shown By Default, ergo it's loaded but not put into the view)
-	NSURL *depthsUrl = [NSURL URLWithString:@"http://asebeast.cpsc.ucalgary.ca:1892/ArcGIS/rest/services/cpzdepths/MapServer"];
-	self.depthsInfo = [AGSMapServiceInfo mapServiceInfoWithURL:depthsUrl error:&error]; 
-	
-	NSLog(@"Map Info Attempt To Load Failed?: %@", error); 
-	
-	
-	self.depthsLayer = [AGSDynamicMapServiceLayer dynamicMapServiceLayerWithMapServiceInfo:depthsInfo]; 
-	self.depthsLayer.visibleLayers = [NSArray arrayWithObjects:[NSNumber numberWithInt:0], nil];
-	
-	
-
-	//Contours (Lines) Layers 
-	NSURL *contoursUrl = [NSURL URLWithString:@"http://asebeast.cpsc.ucalgary.ca:1892/ArcGIS/rest/services/cpzcontoursopt/MapServer"];
-	self.contoursInfo = [AGSMapServiceInfo mapServiceInfoWithURL:contoursUrl error:&error]; 
-	
-	self.contoursLayer = [AGSDynamicMapServiceLayer dynamicMapServiceLayerWithMapServiceInfo:contoursInfo]; 
-	self.contoursLayer.visibleLayers = [NSArray arrayWithObjects:[NSNumber numberWithInt:0], nil];  //Only show C Layer 
-	
-	
-	[self.mapView addMapLayer:contoursLayer withName:@"Contours Layer"]; 
-	
-	
-	
-	
-	//Oil Layer 
-	NSURL *oilUrl = [NSURL URLWithString:@"http://asebeast.cpsc.ucalgary.ca:1892/ArcGIS/rest/services/Oil12mask/MapServer"]; 
-	AGSMapServiceInfo *oilInfo = [AGSMapServiceInfo mapServiceInfoWithURL:oilUrl error:&error]; 
-
-	self.oilLayer = [AGSDynamicMapServiceLayer dynamicMapServiceLayerWithMapServiceInfo:oilInfo]; 
-	self.oilLayer.visibleLayers = [NSArray arrayWithObjects:[NSNumber numberWithInt:0], nil]; //Only show 75% Layer 
-	
-	[self.mapView addMapLayer:oilLayer withName:@"Oil Layer"]; 
-	
-	
-	
-
-	//Zoom the correct initial extent 
-	
-	AGSSpatialReference *sr = [AGSSpatialReference spatialReferenceWithWKID:4283]; 
-	
-	AGSEnvelope *initialExtent = [AGSEnvelope envelopeWithXmin:138.225
-														  ymin:-29.215
-														  xmax:141.855
-														  ymax:-26.321
-											  spatialReference:sr];
-						
-	[self.mapView zoomToEnvelope:initialExtent animated:YES]; 
-	
-	 
-	 */
-	 
 	
 
 }

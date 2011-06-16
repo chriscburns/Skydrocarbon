@@ -277,8 +277,9 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>28</integer>
-									<integer>27</integer>
+									<integer>10</integer>
+									<integer>2</integer>
+									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
@@ -322,7 +323,7 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20306471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>ArcGISTest1ViewController.m</string>
+										<string>ArcGISTest1AppDelegate.h</string>
 										<key>PBXSplitModuleInNavigatorKey</key>
 										<dict>
 											<key>Split0</key>
@@ -330,11 +331,11 @@
 												<key>PBXProjectModuleGUID</key>
 												<string>1CE0B20406471E060097A5F4</string>
 												<key>PBXProjectModuleLabel</key>
-												<string>ArcGISTest1ViewController.m</string>
+												<string>ArcGISTest1AppDelegate.h</string>
 												<key>_historyCapacity</key>
 												<integer>0</integer>
 												<key>bookmark</key>
-												<string>4398220113AAB09200D401C9</string>
+												<string>4398227A13AACB8000D401C9</string>
 												<key>history</key>
 												<array>
 													<string>435317561378897C00832F28</string>
@@ -345,20 +346,20 @@
 													<string>43B7328C137B2BF600A1BCC1</string>
 													<string>43B7328E137B2BF600A1BCC1</string>
 													<string>43B732BE137B329C00A1BCC1</string>
-													<string>439EAFFF13958F8F006202B6</string>
 													<string>439EB00013958F8F006202B6</string>
-													<string>439EB028139590E5006202B6</string>
 													<string>439EB093139593C2006202B6</string>
-													<string>43CE9A3D139D7E7500548269</string>
 													<string>43CE9AAF13A13B0E00548269</string>
 													<string>43CE9AB013A13B0E00548269</string>
 													<string>43CE9ABE13A13D7300548269</string>
 													<string>435DA9C613AA8FA200F606E0</string>
 													<string>435DA9C713AA8FA200F606E0</string>
-													<string>435DA9C813AA8FA200F606E0</string>
-													<string>4392A9BC13AA9CD60017F6AA</string>
 													<string>4392A9BD13AA9CD60017F6AA</string>
-													<string>439821F413AAAF2D00D401C9</string>
+													<string>4398227413AACB8000D401C9</string>
+													<string>4398227513AACB8000D401C9</string>
+													<string>4398227613AACB8000D401C9</string>
+													<string>4398227713AACB8000D401C9</string>
+													<string>4398227813AACB8000D401C9</string>
+													<string>4398227913AACB8000D401C9</string>
 												</array>
 											</dict>
 											<key>SplitCount</key>
@@ -370,7 +371,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{0, 0}, {798, 753}}</string>
+										<string>{{0, 0}, {798, 971}}</string>
 										<key>RubberWindowFrame</key>
 										<string>4 56 1916 1122 0 0 1920 1178 </string>
 									</dict>
@@ -385,7 +386,7 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20306471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>ArcGISTest1AppDelegate.m</string>
+										<string>ArcGISTest1ViewController.m</string>
 										<key>PBXSplitModuleInNavigatorKey</key>
 										<dict>
 											<key>Split0</key>
@@ -393,11 +394,11 @@
 												<key>PBXProjectModuleGUID</key>
 												<string>1CE0B20406471E060097A5F4</string>
 												<key>PBXProjectModuleLabel</key>
-												<string>ArcGISTest1AppDelegate.m</string>
+												<string>ArcGISTest1ViewController.m</string>
 												<key>_historyCapacity</key>
 												<integer>0</integer>
 												<key>bookmark</key>
-												<string>4398220213AAB09200D401C9</string>
+												<string>4398227D13AACB8000D401C9</string>
 												<key>history</key>
 												<array>
 													<string>435317561378897C00832F28</string>
@@ -409,14 +410,14 @@
 													<string>43B7328E137B2BF600A1BCC1</string>
 													<string>43B732BE137B329C00A1BCC1</string>
 													<string>439EAFBD13958BB9006202B6</string>
-													<string>439EAFD813958C24006202B6</string>
 													<string>43CE9A1D139D7E2800548269</string>
 													<string>43A100A013A15271007A2978</string>
 													<string>435DA9CC13AA8FA200F606E0</string>
 													<string>435DA9CD13AA8FA200F606E0</string>
 													<string>435DA9CE13AA8FA200F606E0</string>
 													<string>435DA9CF13AA8FA200F606E0</string>
-													<string>4393A28913AAA52D00E764E6</string>
+													<string>4398227B13AACB8000D401C9</string>
+													<string>4398227C13AACB8000D401C9</string>
 												</array>
 											</dict>
 											<key>SplitCount</key>
@@ -428,7 +429,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{803, 0}, {849, 753}}</string>
+										<string>{{803, 0}, {849, 971}}</string>
 										<key>RubberWindowFrame</key>
 										<string>4 56 1916 1122 0 0 1920 1178 </string>
 									</dict>
@@ -439,7 +440,7 @@
 								</dict>
 							</array>
 							<key>Proportion</key>
-							<string>753pt</string>
+							<string>971pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -452,14 +453,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 758}, {1652, 323}}</string>
+								<string>{{0, 976}, {1652, 105}}</string>
 								<key>RubberWindowFrame</key>
 								<string>4 56 1916 1122 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>323pt</string>
+							<string>105pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -722,7 +723,7 @@
 			<key>WindowToolGUID</key>
 			<string>431010F11371EDEB008F3D95</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>

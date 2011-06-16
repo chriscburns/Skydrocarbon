@@ -11,13 +11,14 @@
 
 @class ArcGISTest1ViewController;
 @class MBProgressHUD; 
+@class Reachability; 
 
 @interface ArcGISTest1AppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
     ArcGISTest1ViewController *viewController;
 	
 
-	
+	Reachability *reach; 
 	MBProgressHUD *hud; 
 	
 	

@@ -10,8 +10,9 @@
 #import "ArcGIS.h"
 #import	"Reachability.h"
 
+@class MBProgressHUD; 
 
-@interface ArcGISTest1ViewController : UIViewController {
+@interface ArcGISTest1ViewController : UIViewController  {
 	AGSMapView *_mapView;
 	
 	IBOutlet UISegmentedControl *dcoControl;
@@ -24,6 +25,9 @@
 	
 	AGSMapServiceInfo *depthsInfo; 
 	AGSMapServiceInfo *contoursInfo; 
+	AGSMapServiceInfo *oilInfo; 
+	
+	MBProgressHUD *loadingProgress; 
 	
 
 }
@@ -32,6 +36,8 @@
 
 @property (nonatomic, retain) AGSMapServiceInfo *depthsInfo; 
 @property (nonatomic, retain) AGSMapServiceInfo *contoursInfo;
+@property (nonatomic, retain) AGSMapServiceInfo *oilInfo; 
+
 
 @property (nonatomic, retain) AGSDynamicMapServiceLayer *contoursLayer;
 @property (nonatomic, retain) AGSDynamicMapServiceLayer *oilLayer; 
